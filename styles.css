@@ -1,0 +1,24 @@
+* {
+    box-sizing: content-box;
+    position: relative;
+}
+
+#logo {
+    max-width: 40px;
+}
+
+
+/* Navigation menu */
+
+#main-nav li {
+    display: inline;
+    margin: 0px 3px;
+}
+
+.inline-images, .nav-menu {
+    display: inline-block;
+}
+
+.nav-menu {
+    float: right;
+}
