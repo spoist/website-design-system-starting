@@ -22,3 +22,42 @@
 .nav-menu {
     float: right;
 }
+
+/* MAIN */
+
+#colors, #fonts, #text-styles {
+    border: 3px solid rgba(138, 130, 130, .5);
+    margin: 5px 0px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.color {
+    display: inline-block;
+    text-align: center;
+    margin: 5px 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.evenly-spread {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.coolblue {
+    background-color: #2d5dcc;
+}
+
+.beige {
+    background-color: #efd9ca;
+}
+
+.mintgreen {
+    background-color: #4fe0b0;
+}
+
+.pink {
+    background-color: #d957d9;
+}
