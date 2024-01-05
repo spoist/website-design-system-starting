@@ -66,6 +66,10 @@
 
 /* Fonts */
 
+#fonts h2 {
+    font-family: 'Nunito Sans';
+}
+
 .font-container {
     display: inline-block;
 }
@@ -97,4 +101,8 @@
 
 .content.two {
     font-family: 'Nunito Sans';
+}
+
+.content.three {
+    font-family: 'Poppins';
 }
