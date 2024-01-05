@@ -25,6 +25,8 @@
 
 /* MAIN */
 
+/* Colors */
+
 #colors, #fonts, #text-styles {
     border: 3px solid rgba(138, 130, 130, .5);
     margin: 5px 0px;
@@ -60,4 +62,24 @@
 
 .pink {
     background-color: #d957d9;
+}
+
+/* Fonts */
+
+.font-container {
+
+}
+
+.font-panel {
+    display: inline-block;
+}
+
+.content.one {
+    font-family: 'Source Code Pro';
+}
+
+.content.one.title {
+    text-decoration: underline;
+    font-size: 20px;
+    letter-spacing: 3px;
 }
