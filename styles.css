@@ -67,7 +67,20 @@
 /* Fonts */
 
 .font-container {
+    display: inline-block;
+}
 
+.title{
+    text-decoration: underline;
+    font-size: 20px;   
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .font-panel {
@@ -79,7 +92,9 @@
 }
 
 .content.one.title {
-    text-decoration: underline;
-    font-size: 20px;
     letter-spacing: 3px;
+}
+
+.content.two {
+    font-family: 'Nunito Sans';
 }
